@@ -74,3 +74,27 @@ body {
     top: 50px;
     color: white;
 }
+
+.section {
+    position: relative;
+    background: white;
+    width: 1199px;
+    top: 50px;
+    left: 150px;
+    /* height: 600px; */
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.section h4{
+    position: absolute;
+    font-size: var(--h4-size);
+    line-height: 20px;
+    top: 15px;
+    left: 30%;
+}
+.section p{
+    position: absolute;
+    top: 50px;
+    left: 7%
+}
