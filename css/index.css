@@ -5,13 +5,6 @@
 
 :root {
     /* colors */
-    --main-color: rgb(189, 186, 183,0.8);
-    --additional-color: rgba(255,255,220,0.8);
-    --button-up: rgba(128,128,128);
-    --button-main: rgba(0,128,128,.2);
-    --more-color: rgb(128,128,60);
-    --gray-color: rgb(128,128,128);
-    --backgrond: hsl(40, 30%, 65%);
     --nav-color: #4682B4;
     --hover: #0045FF;
 
@@ -63,4 +56,21 @@ body {
 }
 .top-nav ul li:hover{
     background: var(--hover)
+}
+
+.top-nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.asideBar {
+    background: rgba(230,230,230,0.2);
+    width: 150px;
+    height: 500px;
+    line-height: 60px;
+    text-align: center;
+    left: -2px;
+    position: fixed;
+    top: 50px;
+    color: white;
 }
