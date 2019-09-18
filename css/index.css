@@ -61,8 +61,13 @@ body {
     background: var(--hover)
 }
 
-.top-nav ul li a{
+body a{
     color: white;
+    text-decoration: none;
+}
+body a:hover{
+    background: #0045FF;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -114,18 +119,36 @@ body {
     color: white;
     /* background: none; */
 }
-/* .create-product form {
-    width: 70%;
-    height: fit-content;
-    margin: 20px auto;
-    align-content: center;
+
+.createProduct {
+    border: 1px solid;
+    border-radius: 3px;
+}
+.createProduct:hover{
+    background: #0045FF;
 }
 
-.create-form {
+.updateProducts {
+    border: 1px solid;
     border-radius: 3px;
-    background: lightslategray;
-    color: #fff;
-    padding: 10px;
-    display: block;
+}
+.updateProducts:hover{
+    background: #0045FF;
+}
 
-} */
+.readProduct{
+    border: 1px solid;
+    border-radius: 3px;   
+}
+.readProduct:hover{
+    background: #0045FF;
+}
+
+.searchProduct{
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.searchProduct:hover{
+    background: #0045FF;
+}
