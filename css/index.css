@@ -61,8 +61,13 @@ body {
     background: var(--hover)
 }
 
-.top-nav ul li a{
+body a{
     color: white;
+    text-decoration: none;
+}
+body a:hover{
+    background: #0045FF;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -97,8 +102,53 @@ body {
     top: 15px;
     left: 30%;
 }
-.section p{
+.section p {
     position: absolute;
     top: 50px;
     left: 7%
+}
+.section-create {
+    position: relative;
+    background: white;
+    width: 1215px;
+    top: 50px;
+    left: 150px;
+    /* height: 600px; */
+    height: fit-content;
+    text-align: center;
+    color: white;
+    /* background: none; */
+}
+
+.createProduct {
+    border: 1px solid;
+    border-radius: 3px;
+}
+.createProduct:hover{
+    background: #0045FF;
+}
+
+.updateProducts {
+    border: 1px solid;
+    border-radius: 3px;
+}
+.updateProducts:hover{
+    background: #0045FF;
+}
+
+.readProduct{
+    border: 1px solid;
+    border-radius: 3px;   
+}
+.readProduct:hover{
+    background: #0045FF;
+}
+
+.searchProduct{
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.searchProduct:hover{
+    background: #0045FF;
 }
