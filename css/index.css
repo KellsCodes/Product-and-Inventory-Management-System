@@ -97,8 +97,35 @@ body {
     top: 15px;
     left: 30%;
 }
-.section p{
+.section p {
     position: absolute;
     top: 50px;
     left: 7%
 }
+.section-create {
+    position: relative;
+    background: white;
+    width: 1215px;
+    top: 50px;
+    left: 150px;
+    /* height: 600px; */
+    height: fit-content;
+    text-align: center;
+    color: white;
+    /* background: none; */
+}
+/* .create-product form {
+    width: 70%;
+    height: fit-content;
+    margin: 20px auto;
+    align-content: center;
+}
+
+.create-form {
+    border-radius: 3px;
+    background: lightslategray;
+    color: #fff;
+    padding: 10px;
+    display: block;
+
+} */
