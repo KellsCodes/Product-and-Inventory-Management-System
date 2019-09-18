@@ -7,7 +7,6 @@
     <title>Stock Inventory Control</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/bootstrap-4.3.1/dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/img 1.jpg" type="image/jpg" />
 </head>
 <body>
@@ -44,26 +43,17 @@
             </div>
         </aside>
         <section class="section-create">
-            <form>
-                <div class="form-group">
-                    <label for="name-of-product">Product name</label>
-                    <input type="text" class="form-control" id="product-name" placeholder="Enter Product name">
-                </div>
-                <div class="form-group">
-                    <label for="quantity">Quantity</label>
-                    <input type="number" class="form-control" id="product-quantity" placeholder="enter the quantity">
-                </div>
-                <div class="form-group">
-                    <label for="price-of-product">Product price</label>
-                    <input type="text" class="form-control" id="product-price" placeholder="Enter Product price">
-                </div>
-                <div class="form-group">
-                    <label for="product-exp">ExpDate</label>
-                    <input type="date" class="form-control" id="ExpDate">
-                </div>
-                <button type="button" class="btn btn-danger">Cancel</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                <table class="table table-hover table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">S/N</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Product Quantity</th>
+                            <th scope="col">Product Price</th>
+                            <th scope="col">Product ExpDate</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody id="product details"></tbody>
+                </table>
         </section>
-</body>
-</html>
