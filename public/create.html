@@ -44,22 +44,30 @@
             </div> -->
         </aside>
         <section class="section-create">
-            <form class="form-field">
+            <!-- <p class="createMessage"></p> -->
+            <form class="form-field" id="myform">
                 <div class="form-group">
-                    <label for="search-name">Product name</label>
-                    <input type="text" class="form-control" id="search-name" placeholder="Enter Product name">
+                    <label for="name-of-product">Product name</label>
+                    <input type="text" class="form-control" id="product-name" placeholder="Enter Product name">
                 </div>
                 <div class="form-group">
-                    <label for="price-range">Price range</label>
-                    <input type="text" class="form-control" id="price-range" placeholder="Enter price range">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" class="form-control" id="product-quantity" placeholder="enter the quantity">
                 </div>
                 <div class="form-group">
-                    <label for="exp-date">Expires on/before</label>
-                    <input type="month" class="form-control" id="exp-date">
+                    <label for="price-of-product">Product price</label>
+                    <input type="text" class="form-control" id="product-price" placeholder="Enter Product price">
                 </div>
-                <button type="submit" class="btn btn-primary">Search</button>
+                <div class="form-group">
+                    <label for="product-exp">ExpDate</label>
+                    <input type="date" class="form-control" id="ExpDate">
+                </div>
+                <button type="button" class="btn btn-danger" id="cancel">Cancel</button>
+                <button type="submit" class="btn btn-success" id="submit">Submit</button>
             </form>
         </section>
     </main>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

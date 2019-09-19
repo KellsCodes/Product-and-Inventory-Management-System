@@ -20,7 +20,7 @@
 
 html,
 body {
-    background-image: url("/images/mountain.jpg");
+    background-image: url("../images/mountain.jpg");
     padding: 0;
     margin: 0;
 }
@@ -31,6 +31,8 @@ body {
     height: 50px;
     background: var(--nav-color);
     border-bottom: 1px solid white;
+    top: 0;
+    z-index: 1;
 }
 .top-nav img{
     position: absolute;
@@ -169,11 +171,15 @@ body a:hover{
 .section-read-products{
     position: relative;
     background: white;
-    width: 1215px;
+    width: 1213px;
     top: 50px;
     left: 150px;
-    height: 450px;
-    /* height: auto; */
+    /* height: 450px; */
+    height: auto;
     text-align: center;
     color: white;
+}
+.createMessage{
+    color: #000;
+
 }

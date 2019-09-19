@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "productName": "wrist watch",
+      "productQuantity": "3",
+      "productPrice": "22",
+      "expDate": "2019-09-20",
+      "id": 1
+    },
+    {
+      "productName": "wrist watch2",
+      "productQuantity": "3",
+      "productPrice": "22",
+      "expDate": "2019-09-20",
+      "id": 3
+    }
+  ]
+}
