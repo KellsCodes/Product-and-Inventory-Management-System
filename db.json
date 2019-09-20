@@ -1,18 +1,18 @@
 {
   "products": [
     {
-      "productName": "wrist watch",
-      "productQuantity": "3",
+      "productName": "spag",
+      "productQuantity": "500",
       "productPrice": "22",
-      "expDate": "2019-09-20",
+      "expDate": "2019-09-28",
       "id": 1
     },
     {
-      "productName": "wrist watch2",
-      "productQuantity": "3",
-      "productPrice": "22",
-      "expDate": "2019-09-20",
-      "id": 3
+      "productName": "noodles",
+      "productQuantity": "55",
+      "productPrice": "55",
+      "expDate": "2019-09-28",
+      "id": 2
     }
   ]
 }
